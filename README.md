@@ -13,6 +13,8 @@ Downloads for NOTORYX Ops, a MeshCore network dashboard and infrastructure stati
 - **[NOTORYX Ops 0.1.7 test 8](../../releases/tag/v0.1.7-test.8)** (19 November 2026)
 - **[Meshtastic add-on 0.1.1](../../releases/tag/meshtastic-addon-v0.1.1)** (19 November 2026), for Ops 0.1.7
 
+**Coming in the next build:** click-to-decode for SARNEG messages from the NOTORYX phone apps, on the Channels page. [What SARNEG is](https://meshmayhem.org/notoryx/#sarneg).
+
 ## Which file
 
 | File | For |
