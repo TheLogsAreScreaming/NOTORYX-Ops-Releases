@@ -23,10 +23,9 @@ Screenshots are from demo mode with made-up nodes, in the BLACKOUT look.
 
 ## Latest
 
+- **[NOTORYX Ops 0.1.9 test 10](../../releases/tag/v0.1.9-test.10)** (22 November 2026): the BLACKOUT look as the default and new BLACKOUT icons
 - **[NOTORYX Ops 0.1.8 test 9](../../releases/tag/v0.1.8-test.9)** (21 November 2026): SARNEG decoding on the Channels page
-- **[Meshtastic add-on 0.1.1](../../releases/tag/meshtastic-addon-v0.1.1)** (19 November 2026)
-
-**Coming in the next build:** the BLACKOUT look as the default (the six looks above), and the new BLACKOUT app and browser icons. Until then, 0.1.8 starts in the Aurora look.
+- **[Meshtastic add-on 0.1.1](../../releases/tag/meshtastic-addon-v0.1.1)** (19 November 2026), included with both
 
 ## Which file
 
