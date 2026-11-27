@@ -26,9 +26,13 @@ Screenshots are from demo mode with made-up nodes, in the BLACKOUT look.
 
 ## Latest
 
+- **[NOTORYX Ops 0.1.23 test 24](../../releases/tag/v0.1.23-test.24)** (27 November 2026): Find a route lists the radio's contacts
 - **[NOTORYX Ops 0.1.22 test 23](../../releases/tag/v0.1.22-test.23)** (26 November 2026): Reach page, offline maps, what leaves this station, kiosk screen
-- **[NOTORYX Ops 0.1.21 test 22](../../releases/tag/v0.1.21-test.22)** (26 November 2026): templates explained on the Meshtastic page
 - **Meshtastic add-on 0.1.6**, included with both
+
+## User guide
+
+The **[user guide](USER_GUIDE.md)** covers installing on a Pi, Mac or Docker, every page and setting, airtime and security. In the Mac app it's under **Help → NOTORYX Ops User Guide**.
 
 ## Which file
 
@@ -63,9 +67,11 @@ Test builds. What has been checked on real hardware:
 - **Hazard reports:** a report and its all-clear sent on a test channel, the repeater echo heard once and not duplicated.
 - **Meshtastic add-on:** connecting to the station's own Meshtastic radio, reading and changing settings on a second node over the air, renaming it, setting a favourite, rebooting it, and the channel bridge in both directions without echo loops.
 
+- **Fleet:** logging in to a repeater you own and reading its battery, noise, uptime, firmware and neighbours on a schedule.
+- **Reach:** who can hear the station and traces through one and two repeaters.
 - **SARNEG decoding:** checked on the installed 0.1.8 Mac build with demo messages (not yet with messages heard over the air).
 
-Not yet checked on hardware: the Reach tools, the kiosk script on a Pi, teams on the radio, applying settings templates through the add-on, and the MeshCore fleet tools on repeaters you own.
+Not yet checked on hardware: Find a route, the kiosk script on a Pi, teams on the radio, and applying settings templates through the add-on.
 
 ## Problems or ideas
 
