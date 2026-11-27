@@ -26,8 +26,8 @@ Screenshots are from demo mode with made-up nodes, in the BLACKOUT look.
 
 ## Latest
 
+- **[NOTORYX Ops 0.1.24 test 25](../../releases/tag/v0.1.24-test.25)** (27 November 2026): Help › User Guide opens the public guide
 - **[NOTORYX Ops 0.1.23 test 24](../../releases/tag/v0.1.23-test.24)** (27 November 2026): Find a route lists the radio's contacts
-- **[NOTORYX Ops 0.1.22 test 23](../../releases/tag/v0.1.22-test.23)** (26 November 2026): Reach page, offline maps, what leaves this station, kiosk screen
 - **Meshtastic add-on 0.1.6**, included with both
 
 ## User guide
