@@ -12,6 +12,9 @@ Downloads for NOTORYX Ops, a MeshCore network dashboard and infrastructure stati
 - **Coverage and planning:** measured coverage, terrain coverage around any spot, a link profile with line of sight and a signal budget, relay suggestions on high ground, and predictions tuned against links the station has actually heard. Elevation comes from free Copernicus data, downloaded once per area.
 - **Field work:** hazard reports (flooded road, fallen tree, power line down and more) sent and received as plain channel messages any MeshCore app can read, teams on their own private channels with position tracks, and a phone survey mode that keeps working with no signal.
 - **Integrations:** optional accounts with viewer, operator and admin roles, GeoJSON and GPX exports, Prometheus metrics, a read-only public map (off by default), Home Assistant sensors over MQTT and a PostgreSQL archive.
+- **Reach:** test the mesh from the station radio: who can hear me, trace route through repeaters you pick, and find a route to any node, drawn on a map.
+- **Offline maps and kiosk:** the station keeps the map tiles it shows and downloads whole areas ahead of time (MBTiles export and import), and `/kiosk` turns a Pi with a touchscreen into a desk or wall screen.
+- **Privacy:** the Station page lists everything that can leave the station and whether it's on. Every build fails if code can reach the network without being on that list, or if anything that sends radio data is on by default.
 - **Looks:** BLACKOUT, Aurora, Ember, Nebula, Graphite and Sandstone.
 
 | | |
@@ -23,15 +26,15 @@ Screenshots are from demo mode with made-up nodes, in the BLACKOUT look.
 
 ## Latest
 
-- **[NOTORYX Ops 0.1.9 test 10](../../releases/tag/v0.1.9-test.10)** (22 November 2026): the BLACKOUT look as the default and new BLACKOUT icons
-- **[NOTORYX Ops 0.1.8 test 9](../../releases/tag/v0.1.8-test.9)** (21 November 2026): SARNEG decoding on the Channels page
-- **[Meshtastic add-on 0.1.1](../../releases/tag/meshtastic-addon-v0.1.1)** (19 November 2026), included with both
+- **[NOTORYX Ops 0.1.22 test 23](../../releases/tag/v0.1.22-test.23)** (26 November 2026): Reach page, offline maps, what leaves this station, kiosk screen
+- **[NOTORYX Ops 0.1.21 test 22](../../releases/tag/v0.1.21-test.22)** (26 November 2026): templates explained on the Meshtastic page
+- **Meshtastic add-on 0.1.6**, included with both
 
 ## Which file
 
 | File | For |
 |---|---|
-| `notoryx-ops-<version>-pi.tar.gz` | Raspberry Pi or other Debian-based Linux. Unpack, then `sudo ./install.sh` |
+| `notoryx-ops-<version>-pi.tar.gz` | Raspberry Pi or other Debian-based Linux. Unpack, then `sudo ./install.sh` (and `./kiosk.sh` for a touchscreen) |
 | `notoryx-ops-<version>-mac.zip` | Mac. Needs Python 3.10+ from python.org. Unsigned: right-click the app and choose Open the first time |
 | `notoryx-ops-<version>-docker.zip` | Docker. Unzip, then `docker compose up -d` |
 | `notoryx_ops-<version>-py3-none-any.whl` | Any computer with Python 3.10+: `pip install` it, then `notoryx-ops run --open` |
@@ -62,7 +65,7 @@ Test builds. What has been checked on real hardware:
 
 - **SARNEG decoding:** checked on the installed 0.1.8 Mac build with demo messages (not yet with messages heard over the air).
 
-Not yet checked on hardware: teams on the radio, applying settings templates through the add-on, and the MeshCore fleet tools on repeaters you own.
+Not yet checked on hardware: the Reach tools, the kiosk script on a Pi, teams on the radio, applying settings templates through the add-on, and the MeshCore fleet tools on repeaters you own.
 
 ## Problems or ideas
 
